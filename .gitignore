@@ -1,0 +1,7 @@
+front/openai-gpt3/node_modules
+
+
+background/Express-Server/node_modules
+
+
+background/Express-Server/.env

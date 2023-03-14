@@ -1,0 +1,19 @@
+//注意，此文件只能存放变量，不允许写css样式，此文件为全局引入，写入css样式会出现多次打包问题。
+
+@mixin absolute($top: 0, $right: 0, $bottom: 0, $left: 0) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  left: $left;
+  bottom: $bottom;
+}
+
+@mixin wh($w: 100%, $h: 100%) {
+  width: $w;
+  height: $h;
+}
+
+@mixin relative($w, $h) {
+  position: relative;
+  @include wh($w, $h);
+}

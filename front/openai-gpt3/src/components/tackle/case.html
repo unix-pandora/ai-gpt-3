@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="form_div">
+        <form id="mineSubmitForm">
+          <div class="labelDiv">
+            <label>
+              <textarea
+                form="mineSubmitForm"
+                placeholder="请输入问题(每个问题的提问间隔时间为48秒)"
+                cols="40"
+                rows="5"
+                class="questionInput"
+                wrap="hard"
+              ></textarea>
+            </label>
+          </div>
+          <div class="submitDiv">
+            <input type="submit" value="提交" class="submitInput" />
+          </div>
+          <div class="labelDiv1">
+            <label for="answerText"></label>
+            <textarea
+              wrap="hard"
+              cols="50"
+              rows="15"
+              id="answerText"
+              readonly="readonly"
+            >
+00000000 </textarea
+            >
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+
+<style>
+  .submitDiv {
+    position: relative;
+    left: 40%;
+  }
+  #answerText {
+    width: 74rem;
+    height: 15em;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  .questionInput {
+    font-size: 30px;
+    border-radius: 10px;
+    width: 40em;
+    height: 20rem;
+  }
+  .submitInput {
+    font-size: 30px;
+    width: 10em;
+    height: 5rem;
+    border-radius: 10px;
+    margin: 1em 0;
+  }
+  .form_div {
+    width: 60%;
+    position: relative;
+    left: 16%;
+    top: 1.7rem;
+  }
+  .labelDiv1 {
+    position: relative;
+    left: 0.5em;
+  }
+</style>
