@@ -2,6 +2,18 @@
 
 --------------------------------
 
+## Notice
+
+```
+
+npm --registry https://registry.npm.taobao.org install -g express express-generator
+
+
+```
+
+
+--------------------------------
+
 ## front
 
 - http://localhost:8083/
